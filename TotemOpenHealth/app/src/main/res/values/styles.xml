@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Device.Text.Weight" parent="Device.Text">
+        <item name="android:layout_weight">4</item>
+    </style>
+
+    <style name="Device.Text" parent="AppTheme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@drawable/text_color_selector</item>
+    </style>
+
+    <style name="Device.Switch" parent="AppTheme">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Device.Box" parent="AppTheme">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Device.Text.Special" parent="Device.Text">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="Button" parent="AppTheme">
+        <item name="android:background">@drawable/scan_button</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Scan.Button" parent="Button">
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="Device.Button" parent="Button">
+
+    </style>
+
+
+
+</resources>
